@@ -12,7 +12,13 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1696870108,,"wq"
+|2,0,1697683652,,"wq"
+:Wq
+|2,0,1697683604,,"Wq"
+:q
+|2,0,1697683312,,"q"
+:wq!
+|2,0,1697682380,,"wq!"
 
 # Search String History (newest to oldest):
 
@@ -25,85 +31,415 @@
 # Registers:
 
 # File marks:
-'0  3  10  ~/syspro/chap3/prob2/main.c
-|4,48,3,10,1696870108,"~/syspro/chap3/prob2/main.c"
-'1  3  33  ~/syspro/chap3/prob2/copy.h
-|4,49,3,33,1696869983,"~/syspro/chap3/prob2/copy.h"
-'2  8  0  ~/syspro/chap3/prob2/copy.c
-|4,50,8,0,1696869966,"~/syspro/chap3/prob2/copy.c"
-'3  27  0  ~/syspro/chap3/prob2/main.c
-|4,51,27,0,1696869948,"~/syspro/chap3/prob2/main.c"
-'4  27  0  ~/syspro/chap3/prob2/main.c
-|4,52,27,0,1696869948,"~/syspro/chap3/prob2/main.c"
+'0  9  0  ~/syspro/chap5/prob7/student.h
+|4,48,9,0,1697683652,"~/syspro/chap5/prob7/student.h"
+'1  32  14  ~/syspro/chap5/prob7/main.c
+|4,49,32,14,1697683610,"~/syspro/chap5/prob7/main.c"
+'2  28  0  ~/syspro/chap5/prob6/main.c
+|4,50,28,0,1697683312,"~/syspro/chap5/prob6/main.c"
+'3  9  0  ~/syspro/chap5/prob6/student.h
+|4,51,9,0,1697683115,"~/syspro/chap5/prob6/student.h"
+'4  33  0  ~/syspro/chap5/prob6/main.c
+|4,52,33,0,1697683081,"~/syspro/chap5/prob6/main.c"
+'5  33  0  ~/syspro/chap5/prob6/main.c
+|4,53,33,0,1697683081,"~/syspro/chap5/prob6/main.c"
+'6  9  0  ~/syspro/chap5/prob5/student.h
+|4,54,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+'7  26  0  ~/syspro/chap5/prob5/main.c
+|4,55,26,0,1697682686,"~/syspro/chap5/prob5/main.c"
+'8  7  0  ~/syspro/chap5/prob4/main.c
+|4,56,7,0,1697682522,"~/syspro/chap5/prob4/main.c"
+'9  1  0  ~/syspro/chap5/prob3/main.c
+|4,57,1,0,1697682380,"~/syspro/chap5/prob3/main.c"
 
 # Jumplist (newest first):
--'  3  10  ~/syspro/chap3/prob2/main.c
-|4,39,3,10,1696870108,"~/syspro/chap3/prob2/main.c"
--'  27  0  ~/syspro/chap3/prob2/main.c
-|4,39,27,0,1696870070,"~/syspro/chap3/prob2/main.c"
--'  3  33  ~/syspro/chap3/prob2/copy.h
-|4,39,3,33,1696869983,"~/syspro/chap3/prob2/copy.h"
--'  3  33  ~/syspro/chap3/prob2/copy.h
-|4,39,3,33,1696869983,"~/syspro/chap3/prob2/copy.h"
--'  1  0  ~/syspro/chap3/prob2/copy.h
-|4,39,1,0,1696869976,"~/syspro/chap3/prob2/copy.h"
--'  1  0  ~/syspro/chap3/prob2/copy.h
-|4,39,1,0,1696869976,"~/syspro/chap3/prob2/copy.h"
--'  8  0  ~/syspro/chap3/prob2/copy.c
-|4,39,8,0,1696869966,"~/syspro/chap3/prob2/copy.c"
--'  8  0  ~/syspro/chap3/prob2/copy.c
-|4,39,8,0,1696869966,"~/syspro/chap3/prob2/copy.c"
--'  8  0  ~/syspro/chap3/prob2/copy.c
-|4,39,8,0,1696869966,"~/syspro/chap3/prob2/copy.c"
--'  8  0  ~/syspro/chap3/prob2/copy.c
-|4,39,8,0,1696869966,"~/syspro/chap3/prob2/copy.c"
--'  1  0  ~/syspro/chap3/prob2/copy.c
-|4,39,1,0,1696869956,"~/syspro/chap3/prob2/copy.c"
--'  1  0  ~/syspro/chap3/prob2/copy.c
-|4,39,1,0,1696869956,"~/syspro/chap3/prob2/copy.c"
--'  1  0  ~/syspro/chap3/prob2/copy.c
-|4,39,1,0,1696869956,"~/syspro/chap3/prob2/copy.c"
--'  1  0  ~/syspro/chap3/prob2/copy.c
-|4,39,1,0,1696869956,"~/syspro/chap3/prob2/copy.c"
--'  27  0  ~/syspro/chap3/prob2/main.c
-|4,39,27,0,1696869948,"~/syspro/chap3/prob2/main.c"
--'  27  0  ~/syspro/chap3/prob2/main.c
-|4,39,27,0,1696869948,"~/syspro/chap3/prob2/main.c"
--'  27  0  ~/syspro/chap3/prob2/main.c
-|4,39,27,0,1696869948,"~/syspro/chap3/prob2/main.c"
--'  27  0  ~/syspro/chap3/prob2/main.c
-|4,39,27,0,1696869948,"~/syspro/chap3/prob2/main.c"
--'  1  0  ~/syspro/chap3/prob2/main.c
-|4,39,1,0,1696869928,"~/syspro/chap3/prob2/main.c"
--'  1  0  ~/syspro/chap3/prob2/main.c
-|4,39,1,0,1696869928,"~/syspro/chap3/prob2/main.c"
--'  1  0  ~/syspro/chap3/prob2/main.c
-|4,39,1,0,1696869928,"~/syspro/chap3/prob2/main.c"
--'  1  0  ~/syspro/chap3/prob2/main.c
-|4,39,1,0,1696869928,"~/syspro/chap3/prob2/main.c"
--'  1  0  ~/syspro/chap3/prob2/main.c
-|4,39,1,0,1696869928,"~/syspro/chap3/prob2/main.c"
+-'  9  0  ~/syspro/chap5/prob7/student.h
+|4,39,9,0,1697683652,"~/syspro/chap5/prob7/student.h"
+-'  1  0  ~/syspro/chap5/prob7/student.h
+|4,39,1,0,1697683633,"~/syspro/chap5/prob7/student.h"
+-'  32  14  ~/syspro/chap5/prob7/main.c
+|4,39,32,14,1697683610,"~/syspro/chap5/prob7/main.c"
+-'  32  14  ~/syspro/chap5/prob7/main.c
+|4,39,32,14,1697683610,"~/syspro/chap5/prob7/main.c"
+-'  1  0  ~/syspro/chap5/prob7/main.c
+|4,39,1,0,1697683451,"~/syspro/chap5/prob7/main.c"
+-'  1  0  ~/syspro/chap5/prob7/main.c
+|4,39,1,0,1697683451,"~/syspro/chap5/prob7/main.c"
+-'  28  0  ~/syspro/chap5/prob6/main.c
+|4,39,28,0,1697683312,"~/syspro/chap5/prob6/main.c"
+-'  28  0  ~/syspro/chap5/prob6/main.c
+|4,39,28,0,1697683312,"~/syspro/chap5/prob6/main.c"
+-'  28  0  ~/syspro/chap5/prob6/main.c
+|4,39,28,0,1697683312,"~/syspro/chap5/prob6/main.c"
+-'  28  0  ~/syspro/chap5/prob6/main.c
+|4,39,28,0,1697683312,"~/syspro/chap5/prob6/main.c"
+-'  33  0  ~/syspro/chap5/prob6/main.c
+|4,39,33,0,1697683270,"~/syspro/chap5/prob6/main.c"
+-'  33  0  ~/syspro/chap5/prob6/main.c
+|4,39,33,0,1697683270,"~/syspro/chap5/prob6/main.c"
+-'  33  0  ~/syspro/chap5/prob6/main.c
+|4,39,33,0,1697683270,"~/syspro/chap5/prob6/main.c"
+-'  33  0  ~/syspro/chap5/prob6/main.c
+|4,39,33,0,1697683270,"~/syspro/chap5/prob6/main.c"
+-'  9  0  ~/syspro/chap5/prob6/student.h
+|4,39,9,0,1697683115,"~/syspro/chap5/prob6/student.h"
+-'  9  0  ~/syspro/chap5/prob6/student.h
+|4,39,9,0,1697683115,"~/syspro/chap5/prob6/student.h"
+-'  9  0  ~/syspro/chap5/prob6/student.h
+|4,39,9,0,1697683115,"~/syspro/chap5/prob6/student.h"
+-'  9  0  ~/syspro/chap5/prob6/student.h
+|4,39,9,0,1697683115,"~/syspro/chap5/prob6/student.h"
+-'  9  0  ~/syspro/chap5/prob6/student.h
+|4,39,9,0,1697683115,"~/syspro/chap5/prob6/student.h"
+-'  9  0  ~/syspro/chap5/prob6/student.h
+|4,39,9,0,1697683115,"~/syspro/chap5/prob6/student.h"
+-'  9  0  ~/syspro/chap5/prob6/student.h
+|4,39,9,0,1697683115,"~/syspro/chap5/prob6/student.h"
+-'  9  0  ~/syspro/chap5/prob6/student.h
+|4,39,9,0,1697683115,"~/syspro/chap5/prob6/student.h"
+-'  1  0  ~/syspro/chap5/prob6/student.h
+|4,39,1,0,1697683104,"~/syspro/chap5/prob6/student.h"
+-'  1  0  ~/syspro/chap5/prob6/student.h
+|4,39,1,0,1697683104,"~/syspro/chap5/prob6/student.h"
+-'  1  0  ~/syspro/chap5/prob6/student.h
+|4,39,1,0,1697683104,"~/syspro/chap5/prob6/student.h"
+-'  1  0  ~/syspro/chap5/prob6/student.h
+|4,39,1,0,1697683104,"~/syspro/chap5/prob6/student.h"
+-'  1  0  ~/syspro/chap5/prob6/student.h
+|4,39,1,0,1697683104,"~/syspro/chap5/prob6/student.h"
+-'  1  0  ~/syspro/chap5/prob6/student.h
+|4,39,1,0,1697683104,"~/syspro/chap5/prob6/student.h"
+-'  1  0  ~/syspro/chap5/prob6/student.h
+|4,39,1,0,1697683104,"~/syspro/chap5/prob6/student.h"
+-'  1  0  ~/syspro/chap5/prob6/student.h
+|4,39,1,0,1697683104,"~/syspro/chap5/prob6/student.h"
+-'  33  0  ~/syspro/chap5/prob6/main.c
+|4,39,33,0,1697683081,"~/syspro/chap5/prob6/main.c"
+-'  33  0  ~/syspro/chap5/prob6/main.c
+|4,39,33,0,1697683081,"~/syspro/chap5/prob6/main.c"
+-'  33  0  ~/syspro/chap5/prob6/main.c
+|4,39,33,0,1697683081,"~/syspro/chap5/prob6/main.c"
+-'  33  0  ~/syspro/chap5/prob6/main.c
+|4,39,33,0,1697683081,"~/syspro/chap5/prob6/main.c"
+-'  33  0  ~/syspro/chap5/prob6/main.c
+|4,39,33,0,1697683081,"~/syspro/chap5/prob6/main.c"
+-'  33  0  ~/syspro/chap5/prob6/main.c
+|4,39,33,0,1697683081,"~/syspro/chap5/prob6/main.c"
+-'  33  0  ~/syspro/chap5/prob6/main.c
+|4,39,33,0,1697683081,"~/syspro/chap5/prob6/main.c"
+-'  33  0  ~/syspro/chap5/prob6/main.c
+|4,39,33,0,1697683081,"~/syspro/chap5/prob6/main.c"
+-'  1  0  ~/syspro/chap5/prob6/main.c
+|4,39,1,0,1697683009,"~/syspro/chap5/prob6/main.c"
+-'  1  0  ~/syspro/chap5/prob6/main.c
+|4,39,1,0,1697683009,"~/syspro/chap5/prob6/main.c"
+-'  1  0  ~/syspro/chap5/prob6/main.c
+|4,39,1,0,1697683009,"~/syspro/chap5/prob6/main.c"
+-'  1  0  ~/syspro/chap5/prob6/main.c
+|4,39,1,0,1697683009,"~/syspro/chap5/prob6/main.c"
+-'  1  0  ~/syspro/chap5/prob6/main.c
+|4,39,1,0,1697683009,"~/syspro/chap5/prob6/main.c"
+-'  1  0  ~/syspro/chap5/prob6/main.c
+|4,39,1,0,1697683009,"~/syspro/chap5/prob6/main.c"
+-'  1  0  ~/syspro/chap5/prob6/main.c
+|4,39,1,0,1697683009,"~/syspro/chap5/prob6/main.c"
+-'  1  0  ~/syspro/chap5/prob6/main.c
+|4,39,1,0,1697683009,"~/syspro/chap5/prob6/main.c"
+-'  1  0  ~/syspro/chap5/prob6/main.c
+|4,39,1,0,1697683009,"~/syspro/chap5/prob6/main.c"
+-'  1  0  ~/syspro/chap5/prob6/main.c
+|4,39,1,0,1697683009,"~/syspro/chap5/prob6/main.c"
+-'  1  0  ~/syspro/chap5/prob6/main.c
+|4,39,1,0,1697683009,"~/syspro/chap5/prob6/main.c"
+-'  1  0  ~/syspro/chap5/prob6/main.c
+|4,39,1,0,1697683009,"~/syspro/chap5/prob6/main.c"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  9  0  ~/syspro/chap5/prob5/student.h
+|4,39,9,0,1697682709,"~/syspro/chap5/prob5/student.h"
+-'  1  0  ~/syspro/chap5/prob5/student.h
+|4,39,1,0,1697682695,"~/syspro/chap5/prob5/student.h"
+-'  1  0  ~/syspro/chap5/prob5/student.h
+|4,39,1,0,1697682695,"~/syspro/chap5/prob5/student.h"
+-'  1  0  ~/syspro/chap5/prob5/student.h
+|4,39,1,0,1697682695,"~/syspro/chap5/prob5/student.h"
+-'  1  0  ~/syspro/chap5/prob5/student.h
+|4,39,1,0,1697682695,"~/syspro/chap5/prob5/student.h"
+-'  1  0  ~/syspro/chap5/prob5/student.h
+|4,39,1,0,1697682695,"~/syspro/chap5/prob5/student.h"
+-'  1  0  ~/syspro/chap5/prob5/student.h
+|4,39,1,0,1697682695,"~/syspro/chap5/prob5/student.h"
+-'  1  0  ~/syspro/chap5/prob5/student.h
+|4,39,1,0,1697682695,"~/syspro/chap5/prob5/student.h"
+-'  1  0  ~/syspro/chap5/prob5/student.h
+|4,39,1,0,1697682695,"~/syspro/chap5/prob5/student.h"
+-'  1  0  ~/syspro/chap5/prob5/student.h
+|4,39,1,0,1697682695,"~/syspro/chap5/prob5/student.h"
+-'  1  0  ~/syspro/chap5/prob5/student.h
+|4,39,1,0,1697682695,"~/syspro/chap5/prob5/student.h"
+-'  1  0  ~/syspro/chap5/prob5/student.h
+|4,39,1,0,1697682695,"~/syspro/chap5/prob5/student.h"
+-'  1  0  ~/syspro/chap5/prob5/student.h
+|4,39,1,0,1697682695,"~/syspro/chap5/prob5/student.h"
+-'  1  0  ~/syspro/chap5/prob5/student.h
+|4,39,1,0,1697682695,"~/syspro/chap5/prob5/student.h"
+-'  1  0  ~/syspro/chap5/prob5/student.h
+|4,39,1,0,1697682695,"~/syspro/chap5/prob5/student.h"
+-'  1  0  ~/syspro/chap5/prob5/student.h
+|4,39,1,0,1697682695,"~/syspro/chap5/prob5/student.h"
+-'  1  0  ~/syspro/chap5/prob5/student.h
+|4,39,1,0,1697682695,"~/syspro/chap5/prob5/student.h"
+-'  1  0  ~/syspro/chap5/prob5/student.h
+|4,39,1,0,1697682695,"~/syspro/chap5/prob5/student.h"
+-'  1  0  ~/syspro/chap5/prob5/student.h
+|4,39,1,0,1697682695,"~/syspro/chap5/prob5/student.h"
 
 # History of marks within files (newest to oldest):
 
-> ~/syspro/chap3/prob2/main.c
-	*	1696870106	0
-	"	3	10
-	^	3	11
-	.	3	10
-	+	27	0
-	+	3	10
+> ~/syspro/chap5/prob7/student.h
+	*	1697683648	0
+	"	9	0
+	^	9	0
+	.	8	2
+	+	8	2
+
+> ~/syspro/chap5/prob7/main.c
+	*	1697683606	0
+	"	32	14
+	^	32	14
+	.	32	13
+	+	5	20
+	+	18	4
+	+	12	22
+	+	37	1
+	+	26	19
+	+	20	13
+	+	24	19
+	+	30	23
+	+	31	20
+	+	32	13
+
+> ~/syspro/chap5/prob6/main.c
+	*	1697683274	0
+	"	28	0
+	^	33	0
+	.	12	22
+	+	5	20
+	+	18	4
+	+	32	1
+	+	12	22
+
+> ~/syspro/chap5/prob6/student.h
+	*	1697683114	0
+	"	9	0
+	^	9	0
+	.	8	2
+	+	8	2
+
+> ~/syspro/chap5/prob5/student.h
+	*	1697682704	0
+	"	9	0
+	^	9	0
+	.	8	2
+	+	8	2
+
+> ~/syspro/chap5/prob5/main.c
+	*	1697682685	0
+	"	26	0
+	^	26	0
+	.	18	47
+	+	5	20
+	+	13	3
+	+	14	0
+	+	25	1
+	+	11	22
+	+	18	47
+
+> ~/syspro/chap5/prob4/main.c
+	*	1697682521	0
+	"	7	0
+	^	7	1
+	.	6	0
+	+	17	0
+	+	16	0
+	+	15	0
+	+	14	0
+	+	13	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	9	0
+	+	8	0
+	+	7	0
+	+	6	0
+	+	5	0
+	+	4	0
+	+	3	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	6	0
+
+> ~/syspro/chap5/prob3/main.c
+	*	1697682377	0
+	"	1	0
+	^	1	0
+	.	5	0
+	+	4	18
+	+	14	3
+	+	15	0
+	+	28	1
+	+	11	21
+	+	5	0
+
+> ~/syspro/chap5/prob3/test.txt
+	*	1697682337	0
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/syspro/chap5/prob2/test.txt
+	*	1697682079	0
+	"	1	3
+	^	1	4
+	.	2	0
+	+	2	0
+
+> ~/syspro/chap5/prob2/main.c
+	*	1697682011	0
+	"	19	1
+	^	19	2
+	.	16	2
+	+	12	18
+	+	7	0
+	+	22	0
+	+	16	2
+
+> ~/syspro/chap5/prob2/main.x
+	*	1697681945	0
+	"	1	0
+
+> ~/syspro/chap5/prob1/test.txt
+	*	1697681888	0
+	"	1	3
+	^	1	4
+	.	2	0
+	+	2	0
+
+> ~/syspro/chap5/prob1/main.c
+	*	1697678427	0
+	"	12	0
+	^	12	0
+	.	11	42
+	+	15	2
+	+	10	13
+	+	11	42
 
 > ~/syspro/chap3/prob2/copy.h
-	*	1696869981	0
+	*	1696916862	0
 	"	3	33
 	^	3	34
 	.	3	33
 	+	3	33
 
 > ~/syspro/chap3/prob2/copy.c
-	*	1696869965	0
+	*	1696916841	0
 	"	8	0
 	^	8	1
 	.	8	0
 	+	8	0
+
+> ~/syspro/chap3/prob2/main.c
+	*	1696916802	0
+	"	27	0
+	^	27	0
+	.	27	0
+	+	27	0
+	+	3	10
+	+	10	18
+	+	27	0
+
+> ~/syspro/chap3/copy.h
+	*	1696914126	0
+	"	3	33
+	^	3	34
+	.	3	33
+	+	3	33
+
+> ~/syspro/chap3/copy.c
+	*	1696914107	0
+	"	8	0
+	^	8	1
+	.	8	0
+	+	8	0
+
+> ~/syspro/chap3/main.c
+	*	1696914080	0
+	"	3	10
+	^	3	11
+	.	3	10
+	+	1	408
+	+	1	152
+	+	27	0
+	+	3	10
