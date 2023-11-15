@@ -12,29 +12,70 @@ char type(mode_t);
 char *perm(mode_t);
 void printStat(char*, char*, struct stat*);
 
+void listDir(char *dir, int show_hidden, int show_details, int recursive);
+
 int main(int argc, char **argv)
 {
- DIR *dp;
- char *dir;
- struct stat st;
- struct dirent *d;
- char path[BUFSIZ+1];
- if (argc == 1)      
-	dir = ".";
- else dir = argv[1];
+    char *dir = ".";
+    int show_hidden = 0;
+    int show_details = 0;
+    int recursive = 0;
 
- if ((dp = opendir(dir)) == NULL)
-	perror(dir);
- while ((d = readdir(dp)) != NULL)
- {	sprintf(path, "%s/%s", dir, d->d_name);
-  if (lstat(path, &st) < 0)
-	perror(path);
-  else
-	printStat(path,d->d_name, &st);
- }
-    closedir(dp);
-    exit(0);
+    for (int i = 1; i < argc; ++i) {
+        if (strcmp(argv[i], "-a") == 0) {
+            show_hidden = 1;
+        } else if (strcmp(argv[i], "-l") == 0) {
+            show_details = 1;
+        } else if (strcmp(argv[i], "-R") == 0) {
+            recursive = 1;
+        } else {
+            dir = argv[i];
+        }
+    }
+
+    listDir(dir, show_hidden, show_details, recursive);
+
+    return 0;
 }
+
+void listDir(char *dir, int show_hidden, int show_details, int recursive)
+{
+    DIR *dp;
+    struct stat st;
+    struct dirent *d;
+    char path[BUFSIZ + 1];
+
+    if ((dp = opendir(dir)) == NULL) {
+        perror(dir);
+        exit(EXIT_FAILURE);
+    }
+
+    while ((d = readdir(dp)) != NULL) {
+        if (!show_hidden && d->d_name[0] == '.') {
+            continue;
+        }
+
+        sprintf(path, "%s/%s", dir, d->d_name);
+
+        if (lstat(path, &st) < 0) {
+            perror(path);
+        } else {
+            if (show_details) {
+                printStat(path, d->d_name, &st);
+            } else {
+                printf("%s\n", d->d_name);
+            }
+
+            if (recursive && S_ISDIR(st.st_mode) && strcmp(d->d_name, ".") != 0 && strcmp(d->d_name, "..") != 0) {
+                printf("\n%s:\n", path);
+                listDir(path, show_hidden, show_details, recursive);
+            }
+        }
+    }
+
+    closedir(dp);
+}
+
 void printStat(char *pathname, char *file, struct stat *st)
  {
      printf("%5d ", st->st_blocks);
